@@ -13,9 +13,6 @@ def pdf1():
 def pdf2():
     return send_pdf('documento2.pdf')
 
-@app.route('/3')
-def pdf3():
-    return send_pdf('documento3.pdf')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
